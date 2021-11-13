@@ -1,0 +1,15 @@
+{
+  "name": "conn-sqlserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "msnodesqlv8": "^2.4.3",
+    "mssql": "^7.2.1"
+  }
+}
