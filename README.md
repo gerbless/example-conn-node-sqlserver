@@ -17,14 +17,14 @@
 ![](./conn-local.PNG) 
 
 - Si hasta este punto todo va bien es hora de probar desde node.
-    1. ingerse al archivo index.js
+    1. ingrese al archivo index.js
     2. en la linea 26 descomentar el siguien código.
     ```await sql.connect(sqlConfigLocal);```
     3. en la linea 7 colocar el PASSWORD con que creo el contenedor docker.
     4. ejecutar  ``` npm start ``` y debería obtener una salida con la versión del servidor sqlserver.
 
 2. Probando en cloud.
-    1. ingerse al archivo index.js
+    1. ingrese al archivo index.js
     2. en la linea 27 descomentar el siguien código.
     ```await sql.connect(sqlConfigCloud);```
     3. rellenar la constante ```const sqlConfigCloud ``` con las credenciales del servidor.
